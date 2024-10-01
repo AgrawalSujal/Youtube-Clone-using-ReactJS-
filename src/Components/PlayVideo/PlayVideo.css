@@ -1,0 +1,25 @@
+@media (max-width: 900px) {
+  .play-video {
+    flex-basis: 100%;
+  }
+  .play-video iframe {
+    width: 100%;
+    height: 50vw;
+  }
+  .vid-description {
+    padding-left: 0;
+  }
+  .play-video .play-video-info span {
+    margin-left: 0;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
+.subscribe-button :hover {
+  background-color: red;
+  color: whitesmoke;
+  font-style: italic;
+  font-family: bold;
+  font-size: xx-large;
+  padding: auto;
+}

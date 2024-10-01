@@ -1,0 +1,19 @@
+.navbar-right .user_icon {
+  width: 35px;
+  border-radius: 50%;
+}
+@media (max-width: 900px) {
+  .navbar-right .menu_icon {
+    display: none;
+  }
+  .navbar-right .user_icon {
+    display: block;
+    width: 30px;
+  }
+  .youtube_logo {
+    width: 90px;
+  }
+  .navbar-middle .logo_search input {
+    width: 100px;
+  }
+}
