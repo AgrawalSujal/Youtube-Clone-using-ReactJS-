@@ -15,39 +15,7 @@ const Recommended = ({ categoryId }) => {
   useEffect(() => {
     fetchData();
   }, []);
-  // return (
-  //   <div className="recommended ml-0">
-  //     {apiData.map((item, index) => {
-  //       return (
-  //         <Link
-  //           to={`video/${item.snippet.categoryId}/${item.id}`}
-  //           className="flex"
-  //           key={index}
-  //         >
-  //           <div className="flex">
-  //             <div className="w-[30vw] mb-2">
-  //               {" "}
-  //               <img
-  //                 src={item.snippet.thumbnails.medium.url}
-  //                 alt=""
-  //                 className="h-[30vh]"
-  //               />
-  //             </div>
-
-  //             <div className="-ml-">
-  //               <h4 className="font-bold">{item.snippet.title}</h4>
-  //               <h5 className="font-semibold">{item.snippet.title}</h5>
-  //               <p className="text-sm font-semibold">
-  //                 {value_converter(`${item.statistics.viewCount}`)}
-  //               </p>
-  //             </div>
-  //           </div>
-  //         </Link>
-  //       );
-  //     })}
-  //   </div>
-  // );
-
+ 
   return (
     <div className="recommended flex-wrap">
       {apiData.map((item, index) => {
